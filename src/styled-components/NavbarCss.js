@@ -25,20 +25,3 @@ export const NavbarLink = styled.a`
   margin-right: 20px;
   font-size: 20px;
 `;
-
-export const Cat = styled.div`
-@media screen and (max-width: 1270px ){
-    display: none;
-  }
-`
-
-export const MessageCat = styled.div`
-  position: fixed;
-  width: 100px; 
-  height: 18px; 
-  left: 1065px;
-@media screen and (min-width: 1552px ){
-    left: 1280px;
-  }
-
-`

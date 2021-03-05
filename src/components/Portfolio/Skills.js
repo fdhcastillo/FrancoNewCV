@@ -8,7 +8,7 @@ const GridSkills = styled.div`
   grid-template-columns: 700px 1fr;
   gap: 4px;
   margin: 135px 200px 0;
-  @media screen and (max-width: 828px ){
+  @media screen and (max-width: 1045px ){
 		display: grid;
     grid-template-columns: 1fr;
 		justify-content: center;
