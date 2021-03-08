@@ -1,9 +1,9 @@
+//MATERIAL UI COMPONENTS
 import { Typography } from '@material-ui/core'
 import CloudDownloadRoundedIcon from '@material-ui/icons/CloudDownloadRounded';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
-
 import Button from '@material-ui/core/Button';
-
+// STYLED COMPONENTS 
 import React from 'react'
 import { 
   GridContainer, 
@@ -14,6 +14,7 @@ import {
   GridFondoDown,
   FondoImgDown,
 } from '../styled-components/AboutMeCss'
+
 import {ImageAboutme} from './../styled-components/AboutMeCss'
 export const AboutMe = () => {
   return (
@@ -44,7 +45,7 @@ export const AboutMe = () => {
             </Button>
           </Description>
         </GridAboutMeDescription>
-        <ImageAboutme></ImageAboutme>
+        <ImageAboutme className="img-aboutme"></ImageAboutme>
       </GridContainer>
       <GridFondoDown>
         <FondoImgDown></FondoImgDown>

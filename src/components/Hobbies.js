@@ -11,7 +11,7 @@ const GridContainerHobbies = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
-  margin: 100px 200px 0;
+  margin: 50px 200px 0;
   @media screen and (max-width: 828px ){
 		display: grid;
     grid-template-columns: 1fr;

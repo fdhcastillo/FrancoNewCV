@@ -9,7 +9,7 @@ import styled from 'styled-components';
 export const CardHobbie = ({nameHobbie}) => {
   return (
     <>
-     <Typography variant=".subtitle"> {nameHobbie} </Typography>
+     <h4> {nameHobbie} </h4>
     </>
   )
 }
