@@ -19,7 +19,7 @@ import {ImageAboutme} from './../styled-components/AboutMeCss'
 export const AboutMe = () => {
   return (
     <>
-      <GridFondoUp>
+      <GridFondoUp id="aboutme">
         <FondoImgUp></FondoImgUp>
       </GridFondoUp>
       <GridContainer className="grid-container-aboutme">

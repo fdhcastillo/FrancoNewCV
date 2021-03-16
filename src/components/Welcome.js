@@ -28,7 +28,7 @@ export const Welcome = () => {
 				<ResumeGrid>
 					<span>Hello world!</span>
 					<h2 className="nes-text is-primary">I'm Franco Hermoza</h2>
-					<h5>FrontEnd Developer</h5>
+					<h5>FrontEnd Developer Junior</h5>
 					<h5>specialized in <span className="nes-text is-warning">Javascript</span></h5>
 					<h5> & <span className="nes-text is-primary"> React </span></h5>
 					<SocialButton>

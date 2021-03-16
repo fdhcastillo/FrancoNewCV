@@ -10,6 +10,7 @@ export const GridContainer = styled.div`
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
   background-color: #242d68;
+
   @media screen and (max-width: 828px ){
 		display: grid;
     grid-template-columns: 1fr;
@@ -45,6 +46,17 @@ export const ImageAboutme = styled.img.attrs({
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
+  
+  transition-duration: 500ms;
+  &:hover {
+    transform: scale(1.3);
+    transition-duration: 500ms;
+  }
+  @media screen and (max-width: 828px ){
+		&:hover{
+      transform: none;
+    }
+  }
 `;
  
 
@@ -61,8 +73,6 @@ export const GridFondoUp = styled.div`
 export const FondoImgUp = styled.img.attrs({
   src: `${AboutmeFondo}`
 })`
-display: absolute;
-left: 0;
 max-width: 100%;
 `;
  
@@ -83,3 +93,9 @@ export const FondoImgDown = styled.img.attrs({
 max-width: 100%;
 `;
  
+
+
+export const AboutMeGrid = styled.div`
+  display:grid;
+  grid-template-columns: 1fr;
+`

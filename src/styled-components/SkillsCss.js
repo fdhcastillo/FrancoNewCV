@@ -58,8 +58,8 @@ export const GridTools = styled.div`
 		text-align: center;
   }
   .image-container-tool {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
     max-width: 100%;
   }
 `

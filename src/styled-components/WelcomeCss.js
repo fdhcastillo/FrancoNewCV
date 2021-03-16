@@ -5,7 +5,6 @@ import manImg from '../assets/images/image.jpg';
 export const WelcomeGrid = styled.div`
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: 1fr;
 	grid-gap: 20px;
 	@media screen and (max-width: 828px ){
 		display: grid;

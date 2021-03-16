@@ -39,6 +39,7 @@ const FlexItem = styled.div`
   align-items: center;
   justify-content: center;
   height: 120px;
+  transition-duration: 0.8s;
   &:hover{
     display: inline-block;
     vertical-align: middle;
@@ -55,7 +56,7 @@ const FlexItem = styled.div`
 
 export const Hobbies = () => {
   return (
-    <GridContainerHobbies>
+    <GridContainerHobbies id="hobbies">
      <h1>What I Like?</h1>
      <CardFlex>
       <FlexItem>

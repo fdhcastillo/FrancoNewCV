@@ -3,6 +3,8 @@ import { GridSkills, ImageSkill, GridTools, ImageTool} from '../../styled-compon
 import { IconsSkills } from '../IconsSkills'
 import { IconsTools } from '../IconsTools'
 
+
+
 export const Skills = () => {
   return (
     <>

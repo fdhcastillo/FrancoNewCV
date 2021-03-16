@@ -1,18 +1,20 @@
+import { styled } from '@material-ui/core';
 import React from 'react'
-import { AboutMe } from './components/AboutMe';
+import { Footer } from './components/Footer';
 import { Hobbies } from './components/Hobbies';
-import { Navbar } from './components/Navbar';
+import { ThisIsMe } from './components/ThisIsMe';
+import { Projects } from './components/Portfolio/Projects';
 import { Skills } from './components/Portfolio/Skills';
-import { Welcome } from './components/Welcome'
+
 
 export const MainScreen = () => {
     return (
         <>
-            <Navbar></Navbar>
-            <Welcome></Welcome>
-            <AboutMe></AboutMe>
+            <ThisIsMe></ThisIsMe>
             <Hobbies></Hobbies>
             <Skills />
+            <Projects></Projects>
+            <Footer></Footer>
         </>
     )
 }

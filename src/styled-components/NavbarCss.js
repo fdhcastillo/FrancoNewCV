@@ -1,19 +1,29 @@
 import styled from "styled-components";
 
+import { 
+  Link
+} from 'react-router-dom'
 // Estilos de mi navbar
+export const NavbarContainer = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+`
+
+
 export const NavbarCss = styled.nav`
   display: flex;
   justify-content:space-between;
   align-items:center;
-  padding: 0 20px;
+  padding: 0 30px;
+  max-width: 100%;
   @media screen and (max-width: 828px ){
-    flex-direction: column;
+    flex-flow: column wrap;
+    margin-left: 30px;
   }
 `;
 
 export const NavbarLogo = styled.h1`
-  position: relative;
-  left: 20px;
+  display: inline;
 `;
 
 export const NavbarItems = styled.li`
@@ -21,7 +31,8 @@ export const NavbarItems = styled.li`
   align-items:center;
 `;
 
-export const NavbarLink = styled.a`
+export const NavbarLink = styled(Link)`
   margin-right: 20px;
   font-size: 20px;
+  color: #272727;
 `;
