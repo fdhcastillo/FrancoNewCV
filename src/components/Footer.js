@@ -1,11 +1,13 @@
 import React from 'react'
 import { FondoImgUp} from '../styled-components/AboutMeCss'
-import { GridItemsFooter, QuickLinks, LinksItem, ImageFooter,GridContainerFooter } from '../styled-components/FooterCss'
+import { GridItemsFooter, QuickLinks, LinksItem, ImageFooter,GridContainerFooter, TitleFooter } from '../styled-components/FooterCss'
 
 import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import FacebookIcon from '@material-ui/icons/Facebook';
+import FavoriteIcon from '@material-ui/icons/Favorite';
+
 
 export const Footer = () => {
   return (
@@ -43,12 +45,10 @@ export const Footer = () => {
           <FacebookIcon fontSize="large" style={{marginRight:'5px'}} />
           <a href="https://www.facebook.com/francodavid.hermozacastillo/" target="_blank" style={{color:'white'}} >Facebook</a>
         </LinksItem>
-        <LinksItem>
-          <i className="nes-octocat animate"></i>
-        </LinksItem>
       </QuickLinks>
       <ImageFooter></ImageFooter>
     </GridItemsFooter>
+    <TitleFooter style={{color: 'white'}}>  Made with <FavoriteIcon style={{color : 'red'}} /> for Franco</TitleFooter>
     </>
   )
 }

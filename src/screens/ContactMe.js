@@ -15,7 +15,7 @@ export const ContactMe = () => {
     <>
       <ContactGridContainer>
         <SocialContactMe>
-          <h1 style={{marginBottom:'40px'}}>ContactMe</h1>
+          <h1 style={{marginBottom:'40px', textAlign: 'center'}}>ContactMe</h1>
           <ContactMeCard elevation={3} style={{backgroundColor: '#ffe082',color:'black',borderRadius:'30px'}}>
             <h6 style={{margin: '20px 5px'}}> <EmailIcon></EmailIcon> YOU CAN CONTACT ME BY ...</h6>
             <LinksItem>

@@ -4,7 +4,7 @@ import ImgFooterSocial from '../assets/images/Social.png'
 
 export const GridContainerFooter = styled.div`
   display: grid;
-  grid-template-columns: minmax(350px, 1fr);
+  grid-template-columns: minmax(375px, 1fr);
 `
 
 export const GridItemsFooter = styled.div`
@@ -17,7 +17,7 @@ export const GridItemsFooter = styled.div`
   @media screen and (max-width: 1320px ){
 		display: grid;
     font-size: 15px;
-    grid-template-columns:  minmax(350px, 1fr);
+    grid-template-columns:  minmax(375px, 1fr);
 		justify-content: center;
 		align-items: center;
 		text-align: center;
@@ -51,3 +51,9 @@ export const ImageFooter = styled.img.attrs({
 		display:none;
   }
 `;
+
+export const TitleFooter = styled.div`
+  background-color: #242d68;
+  text-align: center;
+  min-width: 375px;
+`
