@@ -7,19 +7,27 @@ import { useState } from "react";
 export const ContactForm = () => {
   const [sucess, setSucess] = useState(false);
   const { register,  handleSubmit , errors, reset} = useForm();
-
+   const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+  }
   const onSubmitForm = data =>{
-    console.log(data);
+    fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({ "form-name": "contact", ...data })
+      })
+        .then(() => setSucess(true))
+        .catch(error => alert(error));
     reset();
-    setSucess(true);
     setTimeout(()=>{
       setSucess(false);
     },2500)
   }
-
   return (
     <>
-      <form onSubmit={handleSubmit(onSubmitForm)}>
+      <form name="contact" method="post" data-netlify="true" onSubmit={handleSubmit(onSubmitForm)} netlify>
         <h3> <MailOutlineIcon /> Please, leave me a message</h3>
         <label type="text" name="name"> Name or Fullname: </label>
         <input name="name" ref={register({required: true})} className="nes-input" placeholder="name or fullname" style={{fontSize:'12px',marginBottom:'15px'}} />
