@@ -7,6 +7,7 @@ import {
 export const NavbarContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr;
+  min-width: 375px;
 `
 
 

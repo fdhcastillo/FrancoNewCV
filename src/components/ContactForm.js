@@ -23,7 +23,7 @@ export const ContactForm = () => {
     reset();
     setTimeout(()=>{
       setSucess(false);
-    },2500)
+    },4000)
   }
   return (
     <>

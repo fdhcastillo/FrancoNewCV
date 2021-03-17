@@ -1,5 +1,6 @@
 //MATERIAL UI COMPONENTS
-import { Typography } from '@material-ui/core'
+import Pdf from '../documentPdf/frontendcv.pdf';
+import { Typography } from '@material-ui/core';
 import CloudDownloadRoundedIcon from '@material-ui/icons/CloudDownloadRounded';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import Button from '@material-ui/core/Button';
@@ -36,13 +37,15 @@ export const AboutMe = () => {
               I love reading books about self development or how the mind works in daily life and its time,
               investigate all kinds of tools that have to do with my professional career.
             </Typography>
-            <Button
-              variant="contained"
-              startIcon={<CloudDownloadRoundedIcon />}
-              style={{ outline: 'none', marginTop: '20px', fontSize: '19px', borderRadius: '10px', color: '#252e6b', textTransform: 'none'}}
-            >
-              <Typography variant="h6">Dowload my CV</Typography>
-            </Button>
+            <a href={Pdf} without rel="noopener noreferrer" target="_blank" style={{textDecoration:'none'}}>
+                <Button
+                  variant="contained"
+                  startIcon={<CloudDownloadRoundedIcon />}
+                  style={{ outline: 'none', marginTop: '20px', fontSize: '19px', borderRadius: '10px', color: '#252e6b', textTransform: 'none'}}
+                >
+                  <Typography variant="h6">Dowload my CV</Typography>
+                </Button>
+            </a>   
           </Description>
         </GridAboutMeDescription>
         <ImageAboutme className="img-aboutme"></ImageAboutme>
