@@ -32,10 +32,10 @@ export const ContactForm = () => {
         <label type="text" name="name"> Name or Fullname: </label>
         <input name="name" ref={register({required: true})} className="nes-input" placeholder="name or fullname" style={{fontSize:'12px',marginBottom:'15px'}} />
         {errors.name && <span className="nes-text is-error">This field is required</span>}
-        <label type="text" name="name"> Email: </label>
+        <label type="text" name="email"> Email: </label>
         <input name="email" ref={register({required: true})} className="nes-input" placeholder="email@example.com" style={{fontSize:'12px',marginBottom:'15px'}} />
         {errors.email && <span className="nes-text is-error">This field is required</span>}
-        <label type="text" name="name"> Message: </label>
+        <label type="text" name="message"> Message: </label>
         <textarea className="nes-textarea" name="message" ref={register({required: true})} placeholder="Here put ur message, thank you" style={{fontSize:'12px',marginBottom:'15px',minHeight:'150px'}}></textarea>
         {errors.message && <span className="nes-text is-error">This field is required</span>}
         <button type="submit" className="nes-btn">

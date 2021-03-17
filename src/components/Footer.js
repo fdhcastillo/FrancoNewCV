@@ -48,7 +48,7 @@ export const Footer = () => {
       </QuickLinks>
       <ImageFooter></ImageFooter>
     </GridItemsFooter>
-    <TitleFooter style={{color: 'white'}}>  Made with <FavoriteIcon style={{color : 'red'}} /> for Franco</TitleFooter>
+    <TitleFooter style={{color: 'white'}}>  Made with <FavoriteIcon style={{color : 'red'}} /> by Franco</TitleFooter>
     </>
   )
 }
