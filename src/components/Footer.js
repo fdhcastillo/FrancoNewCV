@@ -23,10 +23,6 @@ export const Footer = () => {
         <LinksItem href="/#aboutme" style={{color:'white'}}> Aboutme </LinksItem>
         <LinksItem href="/#hobbies" style={{color:'white'}}> Hobbies </LinksItem>
         <LinksItem href="/#projects" style={{color:'white'}}> Projects </LinksItem>
-        <LinksItem href="/contactme" style={{color:'white'}}> 
-          <AlternateEmailIcon fontSize="large" />
-          Send an Email 
-        </LinksItem>
       </QuickLinks>
       <QuickLinks>
       <h1>Social Media</h1>
