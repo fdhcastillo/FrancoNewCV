@@ -15,7 +15,7 @@ export const IconsSkills = () => {
     <div style={{textAlign: 'center'}}>
         <h3 style={{display: 'block',marginTop:'40px'}}>
           <ArrowForwardIosIcon fontSize="small" />   
-            Lenguages and Frameworks
+            Languages and Frameworks
         </h3>
         <StyledButton
           size="large"
