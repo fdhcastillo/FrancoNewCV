@@ -13,7 +13,7 @@ import { ContactForm } from '../components/ContactForm';
 export const ContactMe = () => {
   return (
     <>
-      <ContactGridContainer>
+      <ContactGridContainer id="contactme">
         <SocialContactMe>
           <h1 style={{marginBottom:'40px', textAlign: 'center'}}>ContactMe</h1>
           <ContactMeCard elevation={3} style={{backgroundColor: '#ffe082',color:'black',borderRadius:'30px'}}>
