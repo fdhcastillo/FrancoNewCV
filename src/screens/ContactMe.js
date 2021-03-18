@@ -13,11 +13,11 @@ import { ContactForm } from '../components/ContactForm';
 export const ContactMe = () => {
   return (
     <>
-      <ContactGridContainer id="contactme">
+      <ContactGridContainer>
         <SocialContactMe>
           <h1 style={{marginBottom:'40px', textAlign: 'center'}}>ContactMe</h1>
           <ContactMeCard elevation={3} style={{backgroundColor: '#ffe082',color:'black',borderRadius:'30px'}}>
-            <h6 style={{margin: '20px 5px'}}> <EmailIcon></EmailIcon> YOU CAN CONTACT ME BY ...</h6>
+            <h6 style={{margin: '20px 5px'}}> <EmailIcon></EmailIcon> YOU CAN CONTACT ME VIA ...</h6>
             <LinksItem>
               <LinkedInIcon fontSize="large" /> 
               <a href="https://www.linkedin.com/in/franco-david-hermoza-castillo-0155a0193/" target="_blank" style={{color:'#000000'}}>
@@ -48,7 +48,7 @@ export const ContactMe = () => {
           <section className="message-list">
             <section className="message -left">
               <div className="nes-balloon from-left is-dark">
-                <p>Thank you so much for visited my PortFolio, i hope see you soon (:</p>
+                <p>Thank you so much for visiting my Portfolio, I hope to see you soon</p>
               </div>
               <i className="nes-kirby"></i>
             </section>

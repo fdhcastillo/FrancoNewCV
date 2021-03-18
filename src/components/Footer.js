@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { FondoImgUp} from '../styled-components/AboutMeCss'
 import { GridItemsFooter, QuickLinks, LinksItem, ImageFooter,GridContainerFooter, TitleFooter } from '../styled-components/FooterCss'
 
@@ -22,9 +23,9 @@ export const Footer = () => {
         <LinksItem href="/#aboutme" style={{color:'white'}}> Aboutme </LinksItem>
         <LinksItem href="/#hobbies" style={{color:'white'}}> Hobbies </LinksItem>
         <LinksItem href="/#projects" style={{color:'white'}}> Projects </LinksItem>
-        <LinksItem href="/#contactme" style={{color:'white'}}> 
+        <LinksItem href="/contactme" style={{color:'white'}}> 
           <AlternateEmailIcon fontSize="large" />
-          Send a Email 
+          Send an Email 
         </LinksItem>
       </QuickLinks>
       <QuickLinks>
