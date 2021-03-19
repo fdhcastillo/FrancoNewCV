@@ -7,13 +7,6 @@ export const ProjectGridContainer = styled.div`
   align-items: center;
   text-align: center;
   gap: 50px;
-  @media screen and (max-width: 1304px ){
-		display: grid;
-    grid-template-columns: 1fr;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-  }
 `
 
 export const CardProjectGrid = styled.div`
@@ -32,4 +25,3 @@ export const CardProjectGrid = styled.div`
     gap: 30px;
   }
 `
-

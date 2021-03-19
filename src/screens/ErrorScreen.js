@@ -9,7 +9,7 @@ export const ErrorScreen = () => {
           <section class="message-list">
             <section class="message -left">
               <div class="nes-balloon from-left is-dark">
-                <p>Oh no ! Where I am ?</p>
+                <p>Oh no ! Where am I ?</p>
               </div>
             </section>
             <i class="nes-ash"></i>

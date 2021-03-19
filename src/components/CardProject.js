@@ -68,7 +68,7 @@ export const CardProject = () => {
                           <CodeIcon />
                           <br />
                         </CardContent>
-                        <div style={{display:'flex',justifyContent: 'space-between', padding:'5px'}}>
+                        <div style={{display:'flex',justifyContent: 'center', padding:'5px'}}>
                           <i className="devicon-github-original-wordmark colored" style={{fontSize: '4rem'}} />
                           <a href={project.gitUrl} style={{textDecoration:'none', color:'#9c27b0'}} target="_blank">{project.name} Github </a>
                         </div>

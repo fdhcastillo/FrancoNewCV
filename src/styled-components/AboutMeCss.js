@@ -74,6 +74,9 @@ export const FondoImgUp = styled.img.attrs({
   src: `${AboutmeFondo}`
 })`
 max-width: 100%;
+@media screen and (min-width: 1933px ){
+		display: none;
+  }
 `;
  
 

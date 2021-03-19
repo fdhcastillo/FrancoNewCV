@@ -14,7 +14,7 @@ export const Footer = () => {
   return (
     <>
     <GridContainerFooter>
-    <FondoImgUp></FondoImgUp>
+      <FondoImgUp></FondoImgUp>
     </GridContainerFooter>
     <GridItemsFooter>
       <QuickLinks>
