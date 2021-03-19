@@ -30,21 +30,19 @@ export const AboutMe = () => {
             <ArrowForwardIosIcon fontSize="small" />   
               About me
             </Typography>
-            <Typography variant="subtitle1" style={{ marginBottom: '30px'}}>MAIN INFORMATION ABOUT ME AND WHAT I LOVE TO DO</Typography>
-            <Typography variant="h6">I am a developer who works on the frontEnd side (React) 
-              although I also have backend knowledge, 
-              passionate about technology and also about psychology since 
-              I love reading books about self development or how the mind works in daily life and its time,
-              investigate all kinds of tools that have to do with my professional career.
+            <Typography variant="subtitle1" style={{ marginBottom: '30px'}}>MAIN INFORMATION ABOUT ME AND WHAT I 
+            LOVE TO DO</Typography>
+            <Typography variant="h6">I am a developer working on the frontEnd side (React), 
+              I also have knowledge in backend.  I am passionate about technology and also psychology, 
+              I love to read books about self development or how the mind works in daily life, at the same time 
+              I investigate all kind of tools that relate to my professional career.
             </Typography>
             <a href={Pdf} without rel="noopener noreferrer" target="_blank" style={{textDecoration:'none'}}>
-                <Button
-                  variant="contained"
-                  startIcon={<CloudDownloadRoundedIcon />}
-                  style={{ outline: 'none', marginTop: '20px', fontSize: '19px', borderRadius: '10px', color: '#252e6b', textTransform: 'none'}}
-                >
-                  <Typography variant="h6">Dowload my CV</Typography>
-                </Button>
+                <button
+                  style={{ outline: 'none', marginTop: '20px', fontSize: '19px', borderRadius: '10px', color: '#252e6b', textTransform: 'none', height: '50px'}}
+                > 
+                  <Typography variant="h6"><CloudDownloadRoundedIcon fontSize="large" style={{marginRight:'10px'}} />Download my CV</Typography>
+                </button>
             </a>   
           </Description>
         </GridAboutMeDescription>

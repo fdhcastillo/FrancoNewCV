@@ -22,17 +22,17 @@ export const ProjectsData = [
   },
   {
     id:4,
-    name: 'Search Gifs',
-    description: 'App to find your favorite gif',
-    tecnologies: 'React - Hooks - API GIPHY ',
-    gitUrl: 'https://github.com/fdhcastillo/SearchGif'
+    name: 'In progress',
+    description: 'Project in progress',
+    tecnologies: 'Project in in progress',
+    gitUrl: 'Project in progress'
   },
   {
     id:5,
-    name: 'PortFolio Franco',
-    description: 'My portfolio presenting myself as a developer Jr',
-    tecnologies: 'React - CSS GRID AND FLEX - Style components',
-    gitUrl: 'https://github.com/fdhcastillo/SearchGif'
+    name: 'In progress',
+    description: 'Project in progress',
+    tecnologies: 'Project in in progress',
+    gitUrl: 'Project in progress'
   },
   {
     id:6,
@@ -40,5 +40,5 @@ export const ProjectsData = [
     description: 'Project in progress',
     tecnologies: 'Project in in progress',
     gitUrl: 'Project in progress'
-  }
+  },
 ]

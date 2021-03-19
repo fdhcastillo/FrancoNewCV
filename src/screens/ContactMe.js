@@ -8,11 +8,13 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import EmailIcon from '@material-ui/icons/Email';
 import { ContactForm } from '../components/ContactForm';
+import { Navbar } from '../components/Navbar';
 
 
 export const ContactMe = () => {
   return (
     <>
+      <Navbar></Navbar>
       <ContactGridContainer>
         <SocialContactMe>
           <h1 style={{marginBottom:'40px', textAlign: 'center'}}>ContactMe</h1>

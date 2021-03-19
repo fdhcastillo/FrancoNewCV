@@ -15,13 +15,14 @@ import CodeIcon from '@material-ui/icons/Code';
 const MiniCardProject = styled(Box)`
   min-width: 20px;
   align-self: end;
+  transition: 1.5s ease-in-out;
   &:hover{
-    background-color: #ffe082;
+    background-color: #fff59d;
     -webkit-transform: rotate(360deg) scale(0.8);
     -moz-transform: rotate(360deg) scale(0.8);
     -o-transform: rotate(360deg) scale(0.8);
     -ms-transform: rotate(360deg) scale(0.8);
-    transform: rotate(360deg) scale(0.8);
+    transform: scale(1);
     transition: 1s ease-in-out;
   }
   @media screen and (max-width: 366px ){
@@ -69,7 +70,7 @@ export const CardProject = () => {
                         </CardContent>
                         <div style={{display:'flex',justifyContent: 'space-between', padding:'5px'}}>
                           <i className="devicon-github-original-wordmark colored" style={{fontSize: '4rem'}} />
-                          <a href={project.gitUrl} target="_blank">{project.name} Github </a>
+                          <a href={project.gitUrl} style={{textDecoration:'none', color:'#9c27b0'}} target="_blank">{project.name} Github </a>
                         </div>
                   </MiniCardProject>
               )
