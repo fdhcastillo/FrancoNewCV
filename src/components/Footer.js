@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { FondoImgUp} from '../styled-components/AboutMeCss'
-import { GridItemsFooter, QuickLinks, LinksItem, ImageFooter,GridContainerFooter, TitleFooter } from '../styled-components/FooterCss'
+import { GridItemsFooter, QuickLinks, LinksItem, ImageFooter,GridContainerFooter } from '../styled-components/FooterCss'
 
 import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -45,7 +45,6 @@ export const Footer = () => {
       </QuickLinks>
       <ImageFooter></ImageFooter>
     </GridItemsFooter>
-    <TitleFooter style={{color: 'white'}}>  Made with <FavoriteIcon style={{color : 'red'}} /> by Franco</TitleFooter>
     </>
   )
 }
